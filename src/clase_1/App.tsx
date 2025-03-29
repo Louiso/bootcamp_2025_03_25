@@ -6,7 +6,7 @@ import {
 
 import { useState } from "react";
 import { initTasks } from "./data";
-import { paperModalStyle } from "./styles";
+import { paperModalStyle } from "../styles";
 import TaskTable from "./components/TaskTable";
 import TaskForm from "./components/TaskForm";
 import { Maybe, Task, TaskStatus } from "./types";
